@@ -1,36 +1,55 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Franchsoft PROD Uptime Monitoring
+# Положить как .upptimerc.yml в корень репо franchsoft-uptime-prod
+
+owner: dispellka  # заменить на свой GitHub username (или organization)
+repo: franchsoft-uptime-prod
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: API (Franchsoft PROD)
+    url: https://api.franchsoft.ru/health
+    expectedStatusCodes:
+      - 200
+  - name: Admin (Franchsoft PROD)
+    url: https://admin.franchsoft.ru
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+  - name: Loyalty Landing
+    url: https://loyalty.myataofficial.com
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+  - name: Legal Docs (152-ФЗ)
+    url: https://docs.myataofficial.com
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
 
+# Кому назначать GitHub Issues при падении (GitHub username)
+assignees:
+  - dispellka
+
+# Статус-страница (публикуется на GitHub Pages)
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: Franchsoft PROD Status
+  introTitle: Franchsoft — PROD
+  introMessage: Статус сервисов Franchsoft в продакшене.
+  logoUrl: ""
+  theme: dark
   navbar:
     - title: Status
       href: /
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/dispellka/franchsoft-uptime-prod
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# Язык писем/сообщений (необязательно)
+i18n:
+  activeIncidents: Активные инциденты
+  allSystemsOperational: Все сервисы работают
+  incidentReport: Отчёт об инциденте
+  down: Недоступен
+  up: Работает
+  degraded: Деградация
