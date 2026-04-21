@@ -5,18 +5,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.franchsoft.ru.ico",
     "slug": "api-franchsoft-prod",
     "status": "down",
-    "uptime": "0.19%",
-    "uptimeDay": "0.19%",
-    "uptimeWeek": "0.19%",
-    "uptimeMonth": "0.19%",
-    "uptimeYear": "0.19%",
-    "time": 664,
-    "timeDay": 664,
-    "timeWeek": 664,
-    "timeMonth": 664,
-    "timeYear": 664,
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 782,
+    "timeDay": 782,
+    "timeWeek": 782,
+    "timeMonth": 782,
+    "timeYear": 782,
     "dailyMinutesDown": {
-      "2026-04-20": 8
+      "2026-04-21": 177,
+      "2026-04-20": 862
     }
   },
   {
@@ -30,11 +31,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 640,
-    "timeDay": 640,
-    "timeWeek": 640,
-    "timeMonth": 640,
-    "timeYear": 640,
+    "time": 756,
+    "timeDay": 756,
+    "timeWeek": 756,
+    "timeMonth": 756,
+    "timeYear": 756,
     "dailyMinutesDown": {}
   },
   {
@@ -48,11 +49,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 769,
-    "timeDay": 769,
-    "timeWeek": 769,
-    "timeMonth": 769,
-    "timeYear": 769,
+    "time": 885,
+    "timeDay": 885,
+    "timeWeek": 885,
+    "timeMonth": 885,
+    "timeYear": 885,
     "dailyMinutesDown": {}
   },
   {
@@ -61,18 +62,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/docs.myataofficial.com.ico",
     "slug": "legal-docs-152-fz",
     "status": "down",
-    "uptime": "0.22%",
-    "uptimeDay": "0.22%",
-    "uptimeWeek": "0.22%",
-    "uptimeMonth": "0.22%",
-    "uptimeYear": "0.22%",
-    "time": 719,
-    "timeDay": 719,
-    "timeWeek": 719,
-    "timeMonth": 719,
-    "timeYear": 719,
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 829,
+    "timeDay": 829,
+    "timeWeek": 829,
+    "timeMonth": 829,
+    "timeYear": 829,
     "dailyMinutesDown": {
-      "2026-04-20": 8
+      "2026-04-21": 177,
+      "2026-04-20": 862
     }
   }
 ]
