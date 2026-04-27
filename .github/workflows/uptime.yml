@@ -32,6 +32,16 @@ jobs:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT || github.token }}
       - name: Check endpoint status
+        id: check
+        continue-on-error: true
+        uses: upptime/uptime-monitor@v1.41.0
+        with:
+          command: "update"
+        env:
+          GH_PAT: ${{ secrets.GH_PAT || github.token }}
+          SECRETS_CONTEXT: ${{ toJson(secrets) }}
+      - name: Retry on transient failure
+        if: steps.check.outcome == 'failure'
         uses: upptime/uptime-monitor@v1.41.0
         with:
           command: "update"

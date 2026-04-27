@@ -16,8 +16,7 @@
 
 name: Update Template CI
 on:
-  schedule:
-    - cron: "0 0 * * *"
+  # Schedule disabled — uptime.yml has local retry patch that template regen would overwrite
   repository_dispatch:
     types: [update_template]
   workflow_dispatch:
