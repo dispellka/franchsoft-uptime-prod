@@ -6,7 +6,7 @@ repo: franchsoft-uptime-prod
 
 sites:
   - name: API (Franchsoft PROD)
-    url: https://api.franchsoft.ru/health
+    url: https://api.franchsoft.ru/api/health
     expectedStatusCodes:
       - 200
   - name: Admin (Franchsoft PROD)
