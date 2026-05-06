@@ -53,3 +53,6 @@ i18n:
   down: Недоступен
   up: Работает
   degraded: Деградация
+
+workflowSchedule:
+  uptime: "2-59/5 * * * *"
