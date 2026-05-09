@@ -5,11 +5,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.franchsoft.ru.ico",
     "slug": "api-franchsoft-prod",
     "status": "up",
-    "uptime": "18.69%",
+    "uptime": "21.74%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "50.04%",
-    "uptimeMonth": "18.69%",
-    "uptimeYear": "18.69%",
+    "uptimeWeek": "60.49%",
+    "uptimeMonth": "21.74%",
+    "uptimeYear": "21.74%",
     "time": 766,
     "timeDay": 571,
     "timeWeek": 780,
@@ -39,10 +39,10 @@
     "url": "https://admin.franchsoft.ru",
     "icon": "https://icons.duckduckgo.com/ip3/admin.franchsoft.ru.ico",
     "slug": "admin-franchsoft-prod",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 767,
@@ -50,16 +50,18 @@
     "timeWeek": 788,
     "timeMonth": 767,
     "timeYear": 767,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-09": 1
+    }
   },
   {
     "name": "Loyalty Landing",
     "url": "https://loyalty.myataofficial.com",
     "icon": "https://icons.duckduckgo.com/ip3/loyalty.myataofficial.com.ico",
     "slug": "loyalty-landing",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -68,7 +70,9 @@
     "timeWeek": 874,
     "timeMonth": 861,
     "timeYear": 861,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-09": 0
+    }
   },
   {
     "name": "Legal Docs (152-ФЗ)",
@@ -87,7 +91,7 @@
     "timeMonth": 842,
     "timeYear": 842,
     "dailyMinutesDown": {
-      "2026-05-09": 209,
+      "2026-05-09": 1263,
       "2026-05-08": 1440,
       "2026-05-07": 1440,
       "2026-05-06": 1440,
