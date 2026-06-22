@@ -5,11 +5,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.franchsoft.ru.ico",
     "slug": "api-franchsoft-prod",
     "status": "up",
-    "uptime": "75.73%",
+    "uptime": "75.99%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "75.73%",
+    "uptimeYear": "75.99%",
     "time": 777,
     "timeDay": 775,
     "timeWeek": 818,
@@ -33,6 +33,24 @@
       "2026-04-21": 1440,
       "2026-04-20": 862
     }
+  },
+  {
+    "name": "API Egress (TG channel, PROD)",
+    "url": "https://api.franchsoft.ru/api/health/egress",
+    "icon": "https://icons.duckduckgo.com/ip3/api.franchsoft.ru.ico",
+    "slug": "api-egress-tg-channel-prod",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Admin (Franchsoft PROD)",
@@ -87,7 +105,7 @@
     "timeMonth": 828,
     "timeYear": 846,
     "dailyMinutesDown": {
-      "2026-06-22": 292,
+      "2026-06-22": 1278,
       "2026-06-21": 1440,
       "2026-06-20": 1440,
       "2026-06-19": 1440,
