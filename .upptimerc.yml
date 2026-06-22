@@ -9,6 +9,10 @@ sites:
     url: https://api.franchsoft.ru/api/health
     expectedStatusCodes:
       - 200
+  - name: API Egress (TG channel, PROD)
+    url: https://api.franchsoft.ru/api/health/egress
+    expectedStatusCodes:
+      - 200
   - name: Admin (Franchsoft PROD)
     url: https://admin.franchsoft.ru
     expectedStatusCodes:
